@@ -1,0 +1,22 @@
+.border{
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#nom{
+    font-size: 45px;
+    font-family: fantasy;
+    font-variant: small-caps;
+    background-color: rgb(97, 189, 180);
+    color: black;  border-radius: 50px;
+}
+
+#des{
+    font-size: 18px;
+    color: black;  border-radius: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding-bottom: 10px;
+}

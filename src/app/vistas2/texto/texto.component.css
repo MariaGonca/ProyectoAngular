@@ -1,0 +1,40 @@
+thead th, tfoot th {
+    font-family: fantasy;
+    font-size: 20px;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  #cont{
+      color: rgb(18, 29, 27);
+      background-color: white;
+      border-radius: 15%;
+   
+  }
+
+  #cont caption{
+     color: rgb(255, 255, 255);
+     font-family: cursive;
+     background-color: rgb(148, 13, 13);
+     border-radius: 20px;
+     
+  }
+
+  .back{
+      background-image: url("src\assets\peliculas.jpg");
+      padding: 35px;
+  }

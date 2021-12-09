@@ -1,0 +1,11 @@
+#listado{ 
+    background-color: rgb(6, 70, 75);
+    padding-left: 10px;
+}
+
+#listado h3{ 
+    background-color: rgb(6, 70, 75);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-top: 10px;
+}

@@ -1,0 +1,11 @@
+<ul id="menu">
+
+    <li><span> </span></li>
+<li routerLink="/canales"><span>Blog</span></li>
+<li routerLink="/minions"><span>Minions</span></li>
+<li routerLink="/imagen"><span>Trailer</span></li>
+<li routerLink="/texto"><span>Películas más vistas</span></li>
+<li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login"><span>Acceso</span></li>
+<li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()"><span><strong>Usuario:</strong> {{ nombreUsuario }}</span></li>
+
+</ul>
